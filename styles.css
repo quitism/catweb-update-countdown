@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#timer div {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+#days {
+  font-size: 60px;
+}
+
+#hours {
+  font-size: 50px;
+}
+
+#minutes {
+  font-size: 40px;
+}
+
+#seconds {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  #timer {
+    flex-direction: column;
+  }
+
+  #timer div {
+    width: auto;
+    margin-bottom: 10px;
+  }
+}
